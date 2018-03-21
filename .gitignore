@@ -1,0 +1,34 @@
+# Binaries for programs and plugins
+*.o
+*.a
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local vendor cache
+vendor*/
+_vendor*/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+*.pem
+
+dist/*
+
+.*
+!/.gitignore
